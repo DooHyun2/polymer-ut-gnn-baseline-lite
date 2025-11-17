@@ -1,5 +1,5 @@
 polymer-ut-gnn-baseline-lite
-This repository is a minimal UT x ML baseline designed to demonstrate the ability to 
+This repository is a minimal UT x ML baseline designed to demonstrate the ability to:
 * handle 3D ultrasound-like inspection volumes
 * extract graph-style features
 * report simple baseline metrics (MAE/ r / CV)
