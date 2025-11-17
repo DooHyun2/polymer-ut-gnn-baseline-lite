@@ -19,5 +19,5 @@ Verify NumPy:
 python -c "import numpy; print('numpy OK')"
 Run the baseline:
 python run_baseline.py --seed 0 --grid 28 --noise 0.10
-This generates a small synthetic 3D volume, extracts graph-style features,trains a linear baseline model, and prints MAE / r /5-fold CV metrics.
+This generates a small synthetic 3D volume, extracts graph-style features, trains a linear baseline model, and prints MAE / r /5-fold CV metrics.
 
