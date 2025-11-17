@@ -1,5 +1,8 @@
 polymer-ut-gnn-baseline-lite
-This repository is a minimal UT x ML baseline designed to demonstrate the ability to handle 3D ultrasound-like inspection volumes, extracting graph-style features, and report simple baseline metrics (MAE/ r / CV). 
+This repository is a minimal UT x ML baseline designed to demonstrate the ability to 
+* handle 3D ultrasound-like inspection volumes
+* extract graph-style features
+* report simple baseline metrics (MAE/ r / CV)
 It is intentionally lightweight for clarity and reproducibility.
 
 Purpose
@@ -16,5 +19,5 @@ Verify NumPy:
 python -c "import numpy; print('numpy OK')"
 Run the baseline:
 python run_baseline.py --seed 0 --grid 28 --noise 0.10
-This generates a small synthestic 3D volume, extracts graph-style features,trains a linear baseline model, and prints MAE / r /5-fold CV metrics.
+This generates a small synthetic 3D volume, extracts graph-style features,trains a linear baseline model, and prints MAE / r /5-fold CV metrics.
 
